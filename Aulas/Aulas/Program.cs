@@ -11,7 +11,7 @@ namespace Aulas
     {
         static void Main(string[] args)
         {
-            Debug.WriteLine("teste");
+            Debug.WriteLine("teste2");
         }
     }
 }

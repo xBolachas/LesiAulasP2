@@ -12,6 +12,7 @@ namespace Aulas
         static void Main(string[] args)
         {
             Debug.WriteLine("teste1");
+            // Testes terminados
         }
     }
 }

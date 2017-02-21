@@ -4,15 +4,18 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Aulas.Controller;
+using Aulas.Models;
 
 namespace Aulas
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            Debug.WriteLine("teste1");
-            
+            PlataformaController plataformaController = new PlataformaController();
+            plataformaController.InicializarPlataformaController();
         }
     }
 }

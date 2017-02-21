@@ -16,6 +16,8 @@ namespace Aulas
         {
             PlataformaController plataformaController = new PlataformaController();
             plataformaController.InicializarPlataformaController();
+            Debug.WriteLine("teste 12");
+            
         }
     }
 }
